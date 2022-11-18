@@ -1,0 +1,14 @@
+{
+    "name": "advisohome",
+    "version": "0.1.0",
+    "private": true,
+
+
+"devDependencies":{
+    "tailwindcss":"^3.2.4"
+    },
+"scripts": {
+    "start":"tailwindcss -i ./tailwind.css -o ./assets/css/pinaka-theme.css --watch"
+}
+}
+
