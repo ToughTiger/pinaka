@@ -11,9 +11,10 @@
     ?>
 
     <div class="content">
-        <h1> content </h1>
+        <?php the_content(null, false )?>
     </div> 
 
     <?php 
         get_footer();
-     
+
+       
